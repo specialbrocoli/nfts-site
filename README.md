@@ -1,19 +1,113 @@
-# Getting Started
-Install the dependencies and run the project
+# 🎨 Wildly Expensive JPEGs (NFT Site)
+
+A satirical NFT marketplace website showcasing "Wildly Expensive JPEGs" with a humorous take on the NFT craze. This project demonstrates modern web development techniques with a clean, responsive design.
+
+## 🌟 Features
+
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Modern CSS**: Clean styling with CSS Grid, Flexbox, and custom properties
+- **Fast Performance**: Built with Vite for lightning-fast development and builds
+- **Satirical Content**: Humorous take on NFT culture and pricing
+- **Accessible**: Semantic HTML and proper accessibility considerations
+
+## 🖼️ Showcased NFTs
+
+- **Meta-Pigeon Sneaker NFT**: Purple sneakers valued at $33,000
+- **CryptoPunk**: Rare punk character priced at $6.6 million
+- **Bag #748**: Minimalist text-based NFT for $1.4 million
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or bun package manager
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/specialbrocoli/nfts-site.git
+
+cd nfts-site
 ```
+
+2. Install dependencies:
+
+```bash
 npm install
-npm start
+# or
+bun install
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+3. Start the development server:
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+```bash
+npm run dev
+# or
+bun run dev
+```
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+4. Open your browser and navigate to `http://localhost:5173`
 
-Happy Coding!
+## 📁 Project Structure
+
+```
+nfts-site/
+├── index.html
+├── index.css
+├── package.json
+├── vite.config.js
+├── images/
+│   ├── bag.svg
+│   ├── crypto-punk.jpg
+│   └── sneakers-purple.png
+└── README.md
+```
+
+## 🛠️ Built With
+
+- **HTML5**: Semantic markup
+- **CSS3**: Modern styling with Grid and Flexbox
+- **Vite**: Fast build tool and development server
+- **Google Fonts**: Roboto font family
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: < 768px
+- **Desktop**: ≥ 768px
+
+## 🎨 Design Features
+
+- Purple color scheme (`#5f29a3`)
+- Modern typography with Roboto font
+- Smooth hover transitions
+- Card-based layout for NFT showcases
+- Clean navigation with responsive menu
+
+## 📜 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm start` - Alias for dev command
+
+## 🌐 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 👤 Author
+
+Created with 💜 by [Specialbrocoli](https://github.com/specialbrocoli)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/specialbrocoli/nfts-site/issues).
+
+## ⚠️ Disclaimer
+
+This is a satirical project for educational purposes. No actual NFTs are being sold, and the pricing is purely fictional for demonstration purposes.
